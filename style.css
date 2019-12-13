@@ -1,0 +1,92 @@
+html {
+    min-height: 100%;
+}
+body {
+    font-size: 14px;
+    min-height: 100%;
+
+    background-size: cover;
+    margin-left:auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#navBackground {
+    background-color:#000E1B;
+
+    background-size: auto;
+    background-position: center;
+    padding-top: 0;
+    margin-top:0;
+}
+.brand {
+    height: 70px;
+}
+.initials {
+    vertical-align: middle;
+    font-size: 3rem;
+    line-height: 1.3 !important;
+    color: #ffffff;
+    display: inline-block;
+    font-family: "Arial Black","Roboto","Droid Sans",Arial !important;
+    font-weight: bold;
+    text-shadow: 0 4px 3px rgba(0,0,0,0.4), 0 8px 13px rgba(0,0,0,0.1), 0 18px 23px rgba(0,0,0,0.1);
+}
+
+.mainBackground {
+   height: fit-content;
+   background-size: cover;
+}
+
+h4 {
+    text-align: center;
+    padding:5px 0px;
+    text-shadow: 0 4px 3px rgba(0,0,0,0.4), 0 8px 13px rgba(0,0,0,0.1), 0 18px 23px rgba(0,0,0,0.1);
+}
+.mainCenterBox {
+    background-color: #ffffff;
+    padding:5px 0px;
+    height: fit-content;
+    width:95%;
+}
+.solidOuterBox {
+    display: block;
+    border-color: #1B5690;
+    border-top: solid 2px ;
+    border-bottom: solid 2px;
+    width: 95%;
+}
+.dashedBox {
+    display: block;
+    border-color: #1B5690;
+    border: dashed 2px ;
+    width: 95%;
+
+}
+
+.asideText {
+    margin: auto;
+    width: fit-content;
+    color: #ffffff;
+    font-size: large;
+    padding: 15px;
+    text-align: center;
+}
+
+.button_generate{
+   
+   background-color: red;
+    }
+
+.button_clipboard{
+    background-color: rgb(158, 158, 160);
+}
+
+
+#passwordForm {
+    text-align: auto;
+}
